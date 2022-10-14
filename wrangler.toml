@@ -1,13 +1,13 @@
 name = "sheet2json-worker"
 type = "webpack"
-account_id = ""
-route = ""
-zone_id = ""
+account_id = "f6ebe1fc68cd9e2ff89c75d337decae4"
+route = "https://test-spreadsheet-to-json.ghoul.workers.dev/"
+zone_id = "043a65edb1a58702c266859453a94f27"
 vars = {
   # From your spreadsheet URL: docs.google.com/spreadsheets/d/DOC_ID/...
-  DOC_ID = "",
+  DOC_ID = "1PzHE69QfjxiMbTpRd9W-strEQCkFG-Hqs3_mvbmRUVI",
   # Name of spreadsheet tab to get data from
-  SHEET_NAME = "",
+  SHEET_NAME = "Sheet1",
   # Seconds to cache data
   TTL = "5",
 }
